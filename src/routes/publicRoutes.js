@@ -1,5 +1,5 @@
 import About from "../pages/About";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
