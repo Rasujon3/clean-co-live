@@ -6,7 +6,7 @@ const Navbar = ({ children }) => {
     <div class="drawer drawer-end">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
-        <div class="w-full navbar bg-base-100 px-20">
+        <div class="w-full navbar bg-base-100 lg:px-20">
           <div class="flex-1 px-2 mx-2 text-2xl">Clean Co.</div>
 
           <div class="flex-none lg:hidden">
@@ -56,7 +56,7 @@ const Navbar = ({ children }) => {
               <li class="dropdown dropdown-hover dropdown-end">
                 <label
                   tabindex="0"
-                  class="btn btn-primary btn-outline rounded-lg m-1"
+                  class="btn btn-primary btn-outline rounded-lg"
                 >
                   Book Now
                 </label>
