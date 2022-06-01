@@ -9,7 +9,7 @@ const Services = () => {
     //   .then((res) => setServices(res.data));
 
     (async () => {
-      const res = await fetcher.get(`/service`);
+      const res = await fetcher.get(`/get-service`);
       setServices(res.data);
     })();
   }, []);
